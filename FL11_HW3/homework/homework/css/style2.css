@@ -1,0 +1,184 @@
+body {
+  background-color: #333366;
+  margin: 0; }
+
+.header {
+  background: URL("../img/m-h-night.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 420px;
+  border-bottom-right-radius: 50%; }
+  .header .landing-logo {
+    font-family: 'Hind', sans-serif; }
+    .header .landing-logo img {
+      float: left; }
+    .header .landing-logo p {
+      padding-left: 60px;
+      font-size: 20px; }
+      .header .landing-logo p span {
+        display: flex;
+        flex: column;
+        font-size: 8px;
+        padding-left: 10px; }
+
+.header-wrap {
+  padding-top: 2px;
+  padding-left: 90px; }
+
+.header_heading {
+  font-size: 28px;
+  font-family: 'Source Sans Pro', sans-serif;
+  color: #ffffff;
+  font-weight: 800;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+  width: 300px; }
+  .header_heading:after {
+    content: '';
+    background: #ff6633;
+    z-index: -1;
+    position: absolute;
+    width: 115px;
+    height: 20px;
+    top: 55px;
+    left: 1px; }
+
+.header_text {
+  color: #ffffff;
+  font-family: 'Source Sans Pro', sans-serif;
+  width: 545px;
+  line-height: 25px; }
+
+.header_button {
+  background-color: #cc9900;
+  border: none;
+  color: white;
+  width: 100px;
+  height: 35px;
+  font-family: 'Hind', sans-serif;
+  font-size: 16px; }
+
+.section .section_text {
+  font-family: 'Source Sans Pro', sans-serif;
+  color: #ffffff;
+  text-align: center;
+  font-weight: 600;
+  font-size: 24px;
+  position: relative;
+  z-index: 1;
+  overflow: hidden; }
+  .section .section_text:after {
+    content: '';
+    background: #ff6633;
+    z-index: -1;
+    position: absolute;
+    width: 108px;
+    height: 10px;
+    top: 17px;
+    left: 682px; }
+.section .section_card_wrap {
+  display: flex;
+  flex-direction: row;
+  margin: 0 -5px;
+  padding-left: 110px;
+  padding-right: 100px; }
+  .section .section_card_wrap .section_card {
+    background-color: #333333;
+    text-align: center;
+    border-radius: 5px;
+    border-top: 30px;
+    width: 450px;
+    margin: 0 5px; }
+  .section .section_card_wrap .section_card_img {
+    height: 200px;
+    width: 320px;
+    padding: 20px;
+    padding-left: 15px;
+    border-radius: 10px; }
+  .section .section_card_wrap .section_card_heading {
+    font-family: 'Hind', sans-serif;
+    color: white;
+    margin-top: 0;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 0; }
+  .section .section_card_wrap .section_card_text {
+    font-family: 'Hind', sans-serif;
+    color: white;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-weight: 300;
+    font-size: 14px;
+    margin-top: 0; }
+.section .section_banner {
+  width: 700px;
+  height: 120px;
+  margin-top: 100px;
+  margin-left: 300px;
+  background: linear-gradient(75deg, #cc9900, #993366);
+  border-radius: 10px;
+  padding-left: 100px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  z-index: 1;
+  position: relative;
+  overflow: hidden; }
+  .section .section_banner .section_banner_heading {
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #333333;
+    font-size: 28px;
+    font-weight: 800;
+    margin-top: 17px;
+    margin-bottom: 0; }
+  .section .section_banner .section_banner_button {
+    background-color: #cc9900;
+    border: none;
+    color: white;
+    width: 120px;
+    height: 45px;
+    font-family: 'Hind', sans-serif;
+    font-size: 16px;
+    margin-top: 40px;
+    margin-left: 150px; }
+  .section .section_banner .section_banner_text {
+    font-family: 'Hind', sans-serif;
+    color: white;
+    font-weight: 300;
+    font-size: 14px; }
+
+.footer {
+  background-color: #333333;
+  z-index: -1;
+  height: 160px;
+  width: 1350px; }
+  .footer .footer_logo.landing-logo {
+    padding-top: 50px;
+    padding-left: 50px;
+    float: left;
+    font-family: 'Hind', sans-serif; }
+    .footer .footer_logo.landing-logo img {
+      float: left; }
+    .footer .footer_logo.landing-logo p {
+      color: white;
+      padding-left: 60px;
+      font-size: 20px; }
+      .footer .footer_logo.landing-logo p span {
+        display: flex;
+        flex: column;
+        font-size: 8px;
+        padding-left: 10px; }
+  .footer .footer_text {
+    font-family: 'Hind', sans-serif;
+    font-weight: 200;
+    font-size: 14px;
+    color: white;
+    padding-left: 500px;
+    padding-top: 50px;
+    width: 350px; }
+  .footer .footer-cr {
+    font-family: 'Hind', sans-serif;
+    float: right;
+    color: white;
+    padding-right: 30px; }
